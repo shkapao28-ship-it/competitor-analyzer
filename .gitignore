@@ -1,0 +1,56 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# --------------------
+# Environment / Secrets
+# --------------------
+.env
+*.env.local
+
+# --------------------
+# Build / PyInstaller
+# --------------------
+build/
+dist/
+*.spec
+
+# Кэш и временные файлы
+*.tmp
+*.temp
+*.bak
+
+# --------------------
+# IDE / Editors
+# --------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# --------------------
+# Local app data
+# (то, что не нужно в репозитории)
+# --------------------
+history/
+results/
+data/
+logs/
+
+# --------------------
+# OS-specific
+# --------------------
+.DS_Store
+Thumbs.db
+desktop.ini
